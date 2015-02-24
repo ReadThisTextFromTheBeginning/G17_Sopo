@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Core", "Sopo.Core\Sopo.Core.csproj", "{3361CADC-77AC-4F7B-8A55-174A70E12733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Repository", "Sopo.Repository\Sopo.Repository.csproj", "{9EF281B4-A140-451C-91AD-25E6D524A97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Domain", "Sopo.Domain\Sopo.Domain.csproj", "{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sopo.Web", "http://localhost:18920", "{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}|Sopo.Domain.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_18920"
+		Debug.AspNetCompiler.PhysicalPath = "Sopo.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18920\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_18920"
+		Release.AspNetCompiler.PhysicalPath = "Sopo.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18920\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Sopo.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sopo.Admin", "http://localhost:18921", "{54CCC1F3-43A3-4395-B05A-CD7823404DBA}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{897a546d-d2ab-40f9-b7d4-8a7b38ca0c3e}|Sopo.Domain.dll;{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;{9007c32d-bc28-4a3c-b325-08dd1ebd0874}|Sopo.Facade.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_18921"
+		Debug.AspNetCompiler.PhysicalPath = "Sopo.Admin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18921\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_18921"
+		Release.AspNetCompiler.PhysicalPath = "Sopo.Admin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18921\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Sopo.Admin\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Sites", "Web Sites", "{F24031E2-5C21-434C-A1F3-F85C1555D91E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CAE73916-FE27-4024-BA31-05645E2951E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A4D242B2-AA06-4469-9A23-6E0D28A28EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Facade", "Sopo.Facade\Sopo.Facade.csproj", "{9007C32D-BC28-4A3C-B325-08DD1EBD0874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{44EFFFDB-E2C3-4905-82A3-489AD52ADD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3361CADC-77AC-4F7B-8A55-174A70E12733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3361CADC-77AC-4F7B-8A55-174A70E12733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3361CADC-77AC-4F7B-8A55-174A70E12733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3361CADC-77AC-4F7B-8A55-174A70E12733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF281B4-A140-451C-91AD-25E6D524A97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF281B4-A140-451C-91AD-25E6D524A97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF281B4-A140-451C-91AD-25E6D524A97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF281B4-A140-451C-91AD-25E6D524A97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{54CCC1F3-43A3-4395-B05A-CD7823404DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CCC1F3-43A3-4395-B05A-CD7823404DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CCC1F3-43A3-4395-B05A-CD7823404DBA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CCC1F3-43A3-4395-B05A-CD7823404DBA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9007C32D-BC28-4A3C-B325-08DD1EBD0874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9007C32D-BC28-4A3C-B325-08DD1EBD0874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9007C32D-BC28-4A3C-B325-08DD1EBD0874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9007C32D-BC28-4A3C-B325-08DD1EBD0874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3361CADC-77AC-4F7B-8A55-174A70E12733} = {CAE73916-FE27-4024-BA31-05645E2951E2}
+		{9EF281B4-A140-451C-91AD-25E6D524A97F} = {A4D242B2-AA06-4469-9A23-6E0D28A28EE9}
+		{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E} = {CAE73916-FE27-4024-BA31-05645E2951E2}
+		{BFE94DE2-76A1-4335-B8D5-7ECE361ACC9C} = {F24031E2-5C21-434C-A1F3-F85C1555D91E}
+		{54CCC1F3-43A3-4395-B05A-CD7823404DBA} = {F24031E2-5C21-434C-A1F3-F85C1555D91E}
+		{9007C32D-BC28-4A3C-B325-08DD1EBD0874} = {44EFFFDB-E2C3-4905-82A3-489AD52ADD7D}
+	EndGlobalSection
+EndGlobal
