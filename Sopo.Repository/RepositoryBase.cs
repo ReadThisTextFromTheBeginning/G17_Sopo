@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sopo.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -47,12 +48,19 @@ namespace Sopo.Repository {
 		}
 
 		protected virtual void Delete(DbSet<T> set, T entity) {
+			Type
+			if(entity is IDeletable) {
+				(entity as IDeletable).IsDeleted = true;
+			} else {
+				set.Remove(entity);
+			}
+
 			//movifiqropt meqanizmi romelic mixvdeba aqvs tu ara obieqts romelic ishleba IsDeleted veli,
 			//tu eseti veli gaachnia mashin gadaiyvanos es veli true-ze, tuarada washalos fizikurad.
 
-			dynamic entityDynamic = entity;
+			//dynamic entityDynamic = entity;
 
-			try { entityDynamic.IsDeleted = true; } catch { set.Remove(entity); }
+			//try { entityDynamic.IsDeleted = true; } catch { set.Remove(entity); }
 		}
 	}
 }

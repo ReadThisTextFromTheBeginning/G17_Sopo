@@ -39,8 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDeletable.cs" />
+    <Compile Include="BaseRecord.cs" />
     <Compile Include="Contact.cs" />
     <Compile Include="Friend.cs" />
+    <Compile Include="Interfaces\IDeletable.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />

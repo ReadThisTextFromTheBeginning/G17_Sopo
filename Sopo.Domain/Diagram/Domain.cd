@@ -1,18 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Sopo.Domain.User">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <AssociationLine Name="Friend" Type="Sopo.Domain.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="1.032" Y="2.564" />
-        <Point X="1.032" Y="2.555" />
-        <Point X="2.375" Y="2.555" />
-        <Point X="2.375" Y="1.883" />
-        <Point X="2" Y="1.883" />
-      </Path>
-    </AssociationLine>
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAACAAgAAAAAAAAAAAAAAAAAACCAAAAQAAAAg=</HashCode>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAACCAAAAQAAAAg=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -20,14 +11,14 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Sopo.Domain.Friend">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Friend.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sopo.Domain.Contact">
-    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Position X="0.5" Y="6" Width="1.5" />
     <Members>
       <Property Name="User" Hidden="true" />
     </Members>
@@ -37,10 +28,25 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sopo.Domain.Log">
-    <Position X="4.25" Y="3.5" Width="1.5" />
+    <Position X="5.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAACAAAAAA=</HashCode>
       <FileName>Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sopo.Domain.BaseDeletable" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>BaseDeletable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sopo.Domain.BaseRecord" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseRecord.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

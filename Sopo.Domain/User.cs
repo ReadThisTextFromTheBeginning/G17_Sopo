@@ -6,11 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sopo.Domain {
-	public class User {
-
-		[Key]
-		public int ID { get; set; }
-
+	public class User : BaseDeletable {
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 		//[DataType(DataType.EmailAddress, ErrorMessage = "Incorrect email format!")]
