@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.Interfaces {
-	public interface IDeletable {
-		bool IsDeleted { get; set; }
-	}
+namespace Sopo.Repository.Enums
+{
+    public enum Gender
+    {
+        Male = 1,
+        Female = 2,
+    }
 }

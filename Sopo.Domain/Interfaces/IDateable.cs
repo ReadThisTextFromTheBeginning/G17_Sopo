@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.Interfaces {
-	public interface IDeletable {
-		bool IsDeleted { get; set; }
-	}
+namespace Sopo.Repository.Interfaces
+{
+    interface IDateable
+    {
+        DateTime Date { get; set; }
+    }
 }

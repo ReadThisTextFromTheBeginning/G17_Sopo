@@ -39,13 +39,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDeletable.cs" />
-    <Compile Include="BaseRecord.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="Friend.cs" />
+    <Compile Include="BaseTypes\BaseDateable.cs" />
+    <Compile Include="BaseTypes\BaseDeletable.cs" />
+    <Compile Include="BaseTypes\BaseRateable.cs" />
+    <Compile Include="BaseTypes\BaseRecord.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Enums\Education.cs" />
+    <Compile Include="Enums\Gender.cs" />
+    <Compile Include="Enums\GroupType.cs" />
+    <Compile Include="Enums\PageType.cs" />
+    <Compile Include="Enums\RatingScale.cs" />
+    <Compile Include="Enums\RelationshipStatus.cs" />
+    <Compile Include="Enums\Status.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="Interfaces\IDateable.cs" />
     <Compile Include="Interfaces\IDeletable.cs" />
+    <Compile Include="Interfaces\IRateable.cs" />
+    <Compile Include="Library.cs" />
     <Compile Include="Log.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Page.cs" />
+    <Compile Include="Phone.cs" />
+    <Compile Include="Picture.cs" />
+    <Compile Include="Post.cs" />
+    <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rating.cs" />
+    <Compile Include="Relationship.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>

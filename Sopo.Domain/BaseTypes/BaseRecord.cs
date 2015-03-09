@@ -5,9 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Domain {
-	public abstract class BaseRecord {
-		[Key]
-		public int ID { get; set; }
-	}
+namespace Sopo.Repository.BaseTypes
+{
+    public abstract class BaseRecord
+    {
+        [Key]
+        public int ID { get; set; }
+    }
 }

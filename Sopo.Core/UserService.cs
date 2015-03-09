@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sopo.Repository;
-using Sopo.Domain;
+using Sopo.Repository;
 
 namespace Sopo.Core {
 	public class UserService {

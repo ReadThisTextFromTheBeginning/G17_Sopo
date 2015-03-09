@@ -1,4 +1,4 @@
-﻿using Sopo.Domain.Interfaces;
+﻿using Sopo.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -48,7 +48,6 @@ namespace Sopo.Repository {
 		}
 
 		protected virtual void Delete(DbSet<T> set, T entity) {
-			Type
 			if(entity is IDeletable) {
 				(entity as IDeletable).IsDeleted = true;
 			} else {
