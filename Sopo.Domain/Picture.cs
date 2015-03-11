@@ -12,8 +12,6 @@ namespace Sopo.Repository
     public class Picture : BaseRateable
     {
         public string Description { get; set; }
-        //public byte[] Image { get; set; }
-        //public Path FilePath { get; set; }
         public string FileName { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }

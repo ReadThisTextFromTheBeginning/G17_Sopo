@@ -24,11 +24,49 @@ namespace Sopo.Repository
             this.Date = DateTime.Now;
         }
 
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-
+        public string FirstName
+        {
+            get { return this.FirstName; }
+            set
+            {
+                if (value.Length <= 2 || value.Length > 40)
+                    throw new Exception("User Field Firstname Has Some Invalid Arguments!");
+                this.FirstName = value;
+            }
+        }
+        public string LastName
+        {
+            get { return this.FirstName; }
+            set
+            {
+                if (value.Length <= 3 || value.Length > 40)
+                    throw new Exception("User Field Lastname Has Some Invalid Arguments!");
+                this.LastName = value;
+            }
+        }
+        public string Email
+        {
+            get { return this.FirstName; }
+            set
+            {
+                if (value.Length <= 8 ||
+                    value.Length > 40 ||
+                    !value.Contains("@") ||
+                    !value.Contains("."))
+                    throw new Exception("User Field Email Has Some Invalid Arguments!");
+                this.Email = value;
+            }
+        }
+        public string Password
+        {
+            get { return this.FirstName; }
+            set
+            {
+                if (value.Length <= 6 || value.Length > 40)
+                    throw new Exception("User Field Password has some Invalid Argumets!"); // this is not finished yet!
+                this.Password = value;
+            }
+        }
 
         public virtual ICollection<Relationship> SentRelationships { get; set; }
         public virtual ICollection<Relationship> ReceivedRelationships { get; set; }
@@ -40,6 +78,7 @@ namespace Sopo.Repository
         public virtual ICollection<Post> Posts { get; set; }
         public virtual ICollection<Group> Groups { get; set; }
         public virtual ICollection<Phone> PhoneNumbers { get; set; }
+        public virtual Profile Profile { get; set; }
 
         public override string ToString()
         {

@@ -14,6 +14,7 @@ namespace Sopo.Repository
         {
             Users = new List<User>();
         }
+
         public string Name { get; set; }
         public GroupType GroupType { get; set; }
 

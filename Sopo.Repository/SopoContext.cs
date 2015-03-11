@@ -34,17 +34,17 @@ namespace Sopo.Repository
         {
             base.OnModelCreating(modelBuilder);
 
-            //modelBuilder.Entity<User>().HasMany<Message>(x => x.SentMessages).WithRequired(x => x.Sender);
-            //modelBuilder.Entity<User>().HasMany<Message>(x => x.ReceivedMessages).WithRequired(x => x.Receiver);
+            modelBuilder.Entity<User>().HasMany<Message>(x => x.SentMessages).WithRequired(x => x.Sender);
+            modelBuilder.Entity<User>().HasMany<Message>(x => x.ReceivedMessages).WithRequired(x => x.Receiver);
 
-            //modelBuilder.Entity<User>().HasMany<Group>(x => x.Groups).WithMany(x => x.Users);
+            modelBuilder.Entity<User>().HasMany<Group>(x => x.Groups).WithMany(x => x.Users);
 
-            //modelBuilder.Entity<User>().HasMany<Relationship>(x => x.SentRelationships).WithRequired(x => x.ActionUser);
-            //modelBuilder.Entity<User>().HasMany<Relationship>(x => x.ReceivedRelationships).WithRequired(x => x.OtherUser);
+            modelBuilder.Entity<User>().HasMany<Relationship>(x => x.SentRelationships).WithRequired(x => x.ActionUser);
+            modelBuilder.Entity<User>().HasMany<Relationship>(x => x.ReceivedRelationships).WithRequired(x => x.OtherUser);
 
-            //modelBuilder.Entity<Picture>().HasMany<Post>(x => x.Posts).WithMany(x => x.Images);
+            modelBuilder.Entity<Picture>().HasMany<Post>(x => x.Posts).WithMany(x => x.Images);
 
-            //modelBuilder.Entity<User>().HasOptional<Profile>(x => x.Profile).WithRequired(x => x.User);
+            modelBuilder.Entity<User>().HasOptional<Profile>(x => x.Profile).WithRequired(x => x.User);
         }
     }
 }

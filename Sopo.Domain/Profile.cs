@@ -19,6 +19,7 @@ namespace Sopo.Repository
         public Education Education { get; set; }
         public string Profession { get; set; }
         public string Attraction { get; set; }
+        public Country Location { get; set; }
 
         public User User { get; set; }
     }
