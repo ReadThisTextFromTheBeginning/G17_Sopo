@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.Enums
+namespace Sopo.Repository
 {
-    public enum GroupType
+   public class PostRepository : RepositoryBase<Post>
     {
-        Public = 0,
-        Closed = 1,
-        Secret = 2,
     }
 }

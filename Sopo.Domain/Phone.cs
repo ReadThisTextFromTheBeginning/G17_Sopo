@@ -10,7 +10,7 @@ namespace Sopo.Repository
     {
         public string Text { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual Profile Profile { get; set; }
         public virtual Country Country { get; set; }
 
         public override string ToString()

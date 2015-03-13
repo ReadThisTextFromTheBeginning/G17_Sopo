@@ -74,8 +74,8 @@ namespace Sopo.Repository
         public virtual ICollection<Message> ReceivedMessages { get; set; }
         public virtual ICollection<Rating> Ratings { get; set; }
         public virtual ICollection<Library> Libraries { get; set; }
-        public virtual ICollection<Page> Pages { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
+        public virtual ICollection<Page> Pages { get; set; }
         public virtual ICollection<Group> Groups { get; set; }
         public virtual ICollection<Phone> PhoneNumbers { get; set; }
         public virtual Profile Profile { get; set; }

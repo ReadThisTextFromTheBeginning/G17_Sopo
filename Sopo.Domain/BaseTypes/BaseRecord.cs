@@ -9,6 +9,10 @@ namespace Sopo.Repository.BaseTypes
 {
     public abstract class BaseRecord
     {
+        public BaseRecord()
+        {
+
+        }
         [Key]
         public int ID { get; set; }
     }

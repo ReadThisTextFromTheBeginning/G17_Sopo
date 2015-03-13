@@ -15,6 +15,6 @@ namespace Sopo.Repository
 
         //Coming soon...
 
-        public virtual User User { get; set; }
+        public virtual User OwnerUser { get; set; }
     }
 }

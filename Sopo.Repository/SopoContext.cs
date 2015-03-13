@@ -27,7 +27,7 @@ namespace Sopo.Repository
         public DbSet<Picture> Pictures { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Library> Libraries { get; set; }
-        public DbSet<Country> Countries { get; set; }
+        public DbSet<CountryRepository> Countries { get; set; }
         public DbSet<City> Cities { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sopo.Repository.User">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="Groups" Type="Sopo.Repository.Group" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.25" />
+        <Point X="5" Y="0.875" />
+        <Point X="4.5" Y="0.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.03" Y="0.14" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Libraries" Type="Sopo.Repository.Library">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.233" Y="0.14" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Pages" Type="Sopo.Repository.Page" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.688" Y="5.088" />
+        <Point X="5.688" Y="7.409" />
+        <Point X="7.337" Y="7.409" />
+        <Point X="7.337" Y="9.125" />
+        <Point X="8.25" Y="9.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.046" Y="-0.373" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="PhoneNumbers" Type="Sopo.Repository.Phone" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.875" Y="5.088" />
+        <Point X="5.875" Y="6.393" />
+        <Point X="7" Y="6.393" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.094" Y="-1.384" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Posts" Type="Sopo.Repository.Post" ManuallyRouted="true">
+      <Path>
+        <Point X="6" Y="3.116" />
+        <Point X="7.526" Y="3.116" />
+        <Point X="7.526" Y="2.876" />
+        <Point X="9.062" Y="2.876" />
+        <Point X="9.062" Y="2.627" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="4.505" Y="1.859" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ReceivedMessages" Type="Sopo.Repository.Message" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="5.057" />
+        <Point X="4.125" Y="5.057" />
+        <Point X="4.125" Y="6.062" />
+        <Point X="3" Y="6.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.11" Y="0.14" Height="0.182" Width="0.917" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ReceivedRelationships" Type="Sopo.Repository.Relationship" FixedFromPoint="true">
+      <Path>
+        <Point X="5.375" Y="5.088" />
+        <Point X="5.375" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.285" Y="0.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SentRelationships" Type="Sopo.Repository.Relationship" FixedFromPoint="true">
+      <Path>
+        <Point X="5.438" Y="5.088" />
+        <Point X="5.438" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.431" Y="0.381" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Ratings" Type="Sopo.Repository.Rating" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.125" Y="5.088" />
+        <Point X="5.125" Y="7.799" />
+        <Point X="1.312" Y="7.799" />
+        <Point X="1.312" Y="8" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.737" Y="-0.099" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAACCAAAAkhgAAYAAAAAAAAIACCBAAAAAAAAw=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profile" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Groups" />
+      <Property Name="Libraries" />
+      <Property Name="Pages" />
+      <Property Name="PhoneNumbers" />
+      <Property Name="Posts" />
+      <Property Name="ReceivedMessages" />
+      <Property Name="ReceivedRelationships" />
+      <Property Name="SentRelationships" />
+      <Property Name="Ratings" />
+      <Property Name="SentMessages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Group">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Users" Type="Sopo.Repository.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.438" Y="2.377" />
+        <Point X="3.438" Y="2.875" />
+        <Point X="4.5" Y="2.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.188" Y="0.014" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Library">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pictures" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Picture">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <AssociationLine Name="Profile" Type="Sopo.Repository.Profile" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.062" />
+        <Point X="12.625" Y="1.062" />
+        <Point X="12.625" Y="0.38" />
+        <Point X="2.562" Y="0.38" />
+        <Point X="2.562" Y="2.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-5.043" Y="2.212" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAADAAAAAAAAAAAAAAAABBAAAAAAAA=</HashCode>
+      <FileName>Picture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Page">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <AssociationLine Name="OwnerUser" Type="Sopo.Repository.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="8.992" />
+        <Point X="7.466" Y="8.992" />
+        <Point X="7.466" Y="7.302" />
+        <Point X="5.75" Y="7.302" />
+        <Point X="5.75" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.427" Y="3.576" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Page.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OwnerUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Phone">
+    <Position X="7" Y="5" Width="1.5" />
+    <AssociationLine Name="Profile" Type="Sopo.Repository.Profile" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="5.905" />
+        <Point X="5.958" Y="5.905" Type="JumpStart" />
+        <Point X="5.542" Y="5.905" Type="JumpEnd" />
+        <Point X="5.521" Y="5.905" Type="JumpStart" />
+        <Point X="4.729" Y="5.905" Type="JumpEnd" />
+        <Point X="4.708" Y="5.905" Type="JumpStart" />
+        <Point X="4.542" Y="5.905" Type="JumpEnd" />
+        <Point X="4.488" Y="5.905" />
+        <Point X="4.488" Y="5.312" />
+        <Point X="4.208" Y="5.312" Type="JumpStart" />
+        <Point X="4.042" Y="5.312" Type="JumpEnd" />
+        <Point X="3.25" Y="5.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.59" Y="-5.025" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAABAACAAAAAA=</HashCode>
+      <FileName>Phone.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Country">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Country.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Cities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.City">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAMAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sopo.Repository.Post">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <AssociationLine Name="Author" Type="Sopo.Repository.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.125" Y="0.75" />
+        <Point X="9.125" Y="0.568" />
+        <Point X="5.188" Y="0.568" />
+        <Point X="5.188" Y="2.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.84" Y="1.333" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAABAAAAAACAAAAAA=</HashCode>
+      <FileName>Post.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Author" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Images" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Profile">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEgAAAAACAAEIAAAAACAAQAAAABAAgAAAAAAA=</HashCode>
+      <FileName>Profile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Message">
+    <Position X="1.5" Y="6" Width="1.5" />
+    <AssociationLine Name="Sender" Type="Sopo.Repository.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="7.125" />
+        <Point X="4.875" Y="7.125" />
+        <Point X="4.875" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.816" Y="2.129" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Receiver" Type="Sopo.Repository.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="6.938" />
+        <Point X="4.812" Y="6.938" />
+        <Point X="4.812" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.387" Y="1.57" Height="0.182" Width="1.053" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAIAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sender" />
+      <Property Name="Receiver" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Relationship">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <AssociationLine Name="ActionUser" Type="Sopo.Repository.User" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="8.5" />
+        <Point X="5.625" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.063" Y="3.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="OtherUser" Type="Sopo.Repository.User" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="8.5" />
+        <Point X="5.25" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.056" Y="3.124" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Relationship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActionUser" />
+      <Property Name="OtherUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sopo.Repository.Rating">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <AssociationLine Name="Item" Type="Sopo.Repository.Interfaces.IRateable">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.204" Y="0.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="User" Type="Sopo.Repository.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.094" Y="8" />
+        <Point X="1.094" Y="7.625" />
+        <Point X="5" Y="7.625" />
+        <Point X="5" Y="5.088" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.922" Y="2.293" Height="0.182" Width="0.735" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Sopo.Repository.Interfaces.IRateable" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRateable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

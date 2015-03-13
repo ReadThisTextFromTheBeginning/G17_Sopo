@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 using Sopo.Repository;
 
 namespace Sopo.Core {
-	public class UserService {
-		protected UserRepository _userRepository;
-		protected LogRepository _logRepository;
-
-		public UserService() {
-			//var db = new SopoContext();
-			_userRepository = new UserRepository();
-			_logRepository = new LogRepository();
-		}
+	public sealed class UserService : ServiceBase {
+        
 
 		public User Login(string username, string password) {
 			var u = _userRepository.Set().FirstOrDefault(x => x.Email == username && x.Password == password);
 			if(u != null) _logRepository.LoginLog(u);
 			return u;
 		}
+
+        public User Register(User user)
+        {
+            return user;
+        }
+
+        public void Download(string Url) { 
+        
+        }
 	}
 }

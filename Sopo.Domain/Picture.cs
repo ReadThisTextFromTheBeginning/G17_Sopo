@@ -2,6 +2,7 @@
 using Sopo.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,9 @@ namespace Sopo.Repository
     public class Picture : BaseRateable
     {
         public string Description { get; set; }
-        public string FileName { get; set; }
+        [Required]
+        [DataType(DataType.ImageUrl)]
+        public string FilePath { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
         public virtual Profile Profile { get; set; }

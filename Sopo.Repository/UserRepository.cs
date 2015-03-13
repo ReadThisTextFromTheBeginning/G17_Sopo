@@ -6,9 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sopo.Repository {
-	public class UserRepository : RepositoryBase<User> {
-		public override void Delete(User entity) {
-			entity.IsDeleted = true;
-		}
+	public sealed class UserRepository : RepositoryBase<User> {
 	}
 }

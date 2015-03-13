@@ -1,16 +1,20 @@
-﻿using System;
+﻿using Sopo.Repository;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Sopo.Core;
+using System.Web;
 
-namespace Sopo.OuterResorce
+namespace Sopo.Facade
 {
-    public class ResourceDownload
+
+    public class NetResource
     {
-      public static void Downolad(string Url, string saveLocation)
+        public static void Downolad(string Url, string saveLocation)
         {
             try
             {
@@ -31,12 +35,15 @@ namespace Sopo.OuterResorce
                 responseStream.Close();
                 imageResponse.Close();
 
-                FileStream fs = new FileStream(saveLocation, FileMode.Create);
-              Console.WriteLine(fs.Name);
+                string LocalPath = HttpContext.Current.Server.MapPath(saveLocation); //Das ist nicht gut!
+
+                FileStream fs = new FileStream(LocalPath, FileMode.Create);
+                Console.WriteLine(fs.Name);
                 BinaryWriter bw = new BinaryWriter(fs);
                 try
                 {
                     bw.Write(Bytes);
+
                 }
                 finally
                 {
@@ -46,9 +53,12 @@ namespace Sopo.OuterResorce
             }
             catch (Exception ex)
             {
-                 //? aq ra vqna?
+                
+
+               // LogRepository logRepository = new LogRepository();
+                
+               //logRepository.ExceptionLog(ex);
             }
         }
     }
 }
-
