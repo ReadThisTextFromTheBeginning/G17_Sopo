@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.BaseTypes
+namespace Sopo.Domain.BaseTypes
 {
     public abstract class BaseRecord
     {

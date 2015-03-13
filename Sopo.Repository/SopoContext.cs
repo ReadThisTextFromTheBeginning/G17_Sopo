@@ -1,15 +1,9 @@
-﻿using Sopo.Repository;
-using Sopo.Repository.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using Sopo.Domain;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sopo.Repository
 {
-    public class SopoContext : DbContext
+    public sealed class SopoContext : DbContext
     {
         public SopoContext()
             : base("SopoDB")
@@ -29,6 +23,7 @@ namespace Sopo.Repository
         public DbSet<Library> Libraries { get; set; }
         public DbSet<CountryRepository> Countries { get; set; }
         public DbSet<City> Cities { get; set; }
+        public DbSet<DownloadPath> DownloadPaths { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

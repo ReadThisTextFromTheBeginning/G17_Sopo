@@ -1,4 +1,4 @@
-﻿using Sopo.Repository.Interfaces;
+﻿using Sopo.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

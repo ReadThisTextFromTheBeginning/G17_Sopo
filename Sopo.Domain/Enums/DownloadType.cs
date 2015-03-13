@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sopo.Domain.Enums
 {
-    public enum RatingScale
+    public enum DownloadType
     {
-        PleaseDontDoThatAgain = 0,
-        Bad = 1,
-        Normal = 2,
-        Good = 3,
-        Great = 4,
+        image = 1,
+        archive = 2,
+        other = 3,
+        //this enum is to be finished later
     }
 }

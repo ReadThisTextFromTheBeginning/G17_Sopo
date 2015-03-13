@@ -1,11 +1,11 @@
-﻿using Sopo.Repository.BaseTypes;
-using Sopo.Repository.Interfaces;
+﻿using Sopo.Domain.BaseTypes;
+using Sopo.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Sopo.Repository
+namespace Sopo.Domain
 {
     public class Message : BaseDeletable
     {

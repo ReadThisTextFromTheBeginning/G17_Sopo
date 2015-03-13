@@ -45,6 +45,8 @@
     <Compile Include="BaseTypes\BaseRecord.cs" />
     <Compile Include="City.cs" />
     <Compile Include="Country.cs" />
+    <Compile Include="DownloadPath.cs" />
+    <Compile Include="Enums\DownloadType.cs" />
     <Compile Include="Enums\Education.cs" />
     <Compile Include="Enums\Gender.cs" />
     <Compile Include="Enums\GroupType.cs" />

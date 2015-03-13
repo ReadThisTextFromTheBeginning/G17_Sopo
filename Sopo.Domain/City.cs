@@ -1,7 +1,7 @@
-﻿using Sopo.Repository.BaseTypes;
+﻿using Sopo.Domain.BaseTypes;
 using System;
 
-namespace Sopo.Repository
+namespace Sopo.Domain
 {
     public class City : BaseRecord
     {

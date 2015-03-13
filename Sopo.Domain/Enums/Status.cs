@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.Enums
+namespace Sopo.Domain.Enums
 {
     public enum Status
     {

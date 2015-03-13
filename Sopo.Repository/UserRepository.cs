@@ -1,4 +1,5 @@
-﻿using Sopo.Repository;
+﻿using Sopo.Domain;
+using Sopo.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

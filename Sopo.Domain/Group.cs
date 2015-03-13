@@ -1,8 +1,8 @@
-﻿using Sopo.Repository.BaseTypes;
-using Sopo.Repository.Enums;
+﻿using Sopo.Domain.BaseTypes;
+using Sopo.Domain.Enums;
 using System.Collections.Generic;
 
-namespace Sopo.Repository
+namespace Sopo.Domain
 {
     public class Group : BaseRateable
     {

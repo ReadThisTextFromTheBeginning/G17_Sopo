@@ -1,11 +1,11 @@
-﻿using Sopo.Repository.BaseTypes;
-using Sopo.Repository.Enums;
+﻿using Sopo.Domain.BaseTypes;
+using Sopo.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Sopo.Repository
+namespace Sopo.Domain
 {
     public class Relationship : BaseDateable
     {

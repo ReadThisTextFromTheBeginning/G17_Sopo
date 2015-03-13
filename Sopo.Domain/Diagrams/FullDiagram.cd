@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Sopo.Repository.City" Collapsed="true">
+  <Class Name="Sopo.Domain.City" Collapsed="true">
     <Position X="2.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAMAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAIAMAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>City.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Country" Collapsed="true">
+  <Class Name="Sopo.Domain.Country" Collapsed="true">
     <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Country.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Group" Collapsed="true">
+  <Class Name="Sopo.Domain.Group" Collapsed="true">
     <Position X="5.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Group.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Library" Collapsed="true">
+  <Class Name="Sopo.Domain.Library" Collapsed="true">
     <Position X="6" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQBAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Library.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Message" Collapsed="true">
+  <Class Name="Sopo.Domain.Message" Collapsed="true">
     <Position X="3.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAIAAA=</HashCode>
       <FileName>Message.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Log" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="Sopo.Domain.Log" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="2.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAA=</HashCode>
@@ -43,70 +43,70 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Sopo.Repository.Page" Collapsed="true">
+  <Class Name="Sopo.Domain.Page" Collapsed="true">
     <Position X="5.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAQAAAAAAAAA=</HashCode>
       <FileName>Page.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Phone" Collapsed="true">
+  <Class Name="Sopo.Domain.Phone" Collapsed="true">
     <Position X="6" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAABAACAAAAAA=</HashCode>
       <FileName>Phone.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Picture" Collapsed="true">
+  <Class Name="Sopo.Domain.Picture" Collapsed="true">
     <Position X="2.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAADAAAAAAAAAAAAAAAABAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAAADAAAAAAAAAAAAAAAABBAAAAAAAA=</HashCode>
       <FileName>Picture.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Post" Collapsed="true">
+  <Class Name="Sopo.Domain.Post" Collapsed="true">
     <Position X="3.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAABAAAAAACAAAAAA=</HashCode>
       <FileName>Post.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Profile" Collapsed="true">
+  <Class Name="Sopo.Domain.Profile" Collapsed="true">
     <Position X="5.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAEgAAAAACAAEIAAAAACAAQAAAABAAgAAAAAAA=</HashCode>
       <FileName>Profile.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Rating" Collapsed="true">
+  <Class Name="Sopo.Domain.Rating" Collapsed="true">
     <Position X="6" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Rating.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.Relationship" Collapsed="true">
+  <Class Name="Sopo.Domain.Relationship" Collapsed="true">
     <Position X="2.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAQAAAAAAAAAA=</HashCode>
       <FileName>Relationship.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.User" Collapsed="true">
+  <Class Name="Sopo.Domain.User" Collapsed="true">
     <Position X="3.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAEAAACCAAAAkhgAAYAAAAAAAAIACCBAAAAAAAAw=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.BaseTypes.BaseRecord" Collapsed="true">
+  <Class Name="Sopo.Domain.BaseTypes.BaseRecord" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BaseTypes\BaseRecord.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Repository.BaseTypes.BaseRateable" Collapsed="true">
+  <Class Name="Sopo.Domain.BaseTypes.BaseRateable" Collapsed="true">
     <Position X="0.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
@@ -114,7 +114,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Sopo.Repository.BaseTypes.BaseDeletable" Collapsed="true">
+  <Class Name="Sopo.Domain.BaseTypes.BaseDeletable" Collapsed="true">
     <Position X="0.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
@@ -122,7 +122,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Sopo.Repository.BaseTypes.BaseDateable" Collapsed="true">
+  <Class Name="Sopo.Domain.BaseTypes.BaseDateable" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
@@ -130,70 +130,70 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Sopo.Repository.Interfaces.IDateable" Collapsed="true">
+  <Interface Name="Sopo.Domain.Interfaces.IDateable" Collapsed="true">
     <Position X="10.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IDateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Sopo.Repository.Interfaces.IDeletable" Collapsed="true">
+  <Interface Name="Sopo.Domain.Interfaces.IDeletable" Collapsed="true">
     <Position X="10.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Interfaces\IDeletable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Sopo.Repository.Interfaces.IRateable" Collapsed="true">
+  <Interface Name="Sopo.Domain.Interfaces.IRateable" Collapsed="true">
     <Position X="10.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IRateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="Sopo.Repository.Enums.Status" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.Status" Collapsed="true">
     <Position X="9.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAIAAAAAAAEAIAAAAAKAAAQAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Enums\Status.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.RelationshipStatus" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.RelationshipStatus" Collapsed="true">
     <Position X="13" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAQAQAAAAAAABAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>Enums\RelationshipStatus.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.PageType" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.PageType" Collapsed="true">
     <Position X="9.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABBAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAQA=</HashCode>
       <FileName>Enums\PageType.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.RatingScale" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.RatingScale" Collapsed="true">
     <Position X="11.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAABAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAE=</HashCode>
       <FileName>Enums\RatingScale.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.GroupType" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.GroupType" Collapsed="true">
     <Position X="13" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACAQAA=</HashCode>
       <FileName>Enums\GroupType.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.Gender" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.Gender" Collapsed="true">
     <Position X="11.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>Enums\Gender.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="Sopo.Repository.Enums.Education" Collapsed="true">
+  <Enum Name="Sopo.Domain.Enums.Education" Collapsed="true">
     <Position X="9.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAABAAICAAAAAAAAAAAAAAAAAAAACAAAAgAg=</HashCode>

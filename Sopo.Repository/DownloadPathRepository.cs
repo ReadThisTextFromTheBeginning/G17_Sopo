@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sopo.Repository
 {
-   public class PageRepository : RepositoryBase<Page>
+   public class DownloadPathRepository : RepositoryBase<DownloadPath>
     {
     }
 }

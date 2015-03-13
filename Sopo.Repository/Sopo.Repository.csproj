@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CityRepository.cs" />
     <Compile Include="CountryRepository.cs" />
+    <Compile Include="DownloadPathRepository.cs" />
     <Compile Include="GroupRepository.cs" />
     <Compile Include="LibraryRepository.cs" />
     <Compile Include="LogRepository.cs" />

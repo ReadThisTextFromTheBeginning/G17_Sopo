@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sopo.Repository;
+using Sopo.Domain;
 
 namespace Sopo.Core {
 	public sealed class UserService : ServiceBase {
@@ -18,10 +19,6 @@ namespace Sopo.Core {
         public User Register(User user)
         {
             return user;
-        }
-
-        public void Download(string Url) { 
-        
         }
 	}
 }

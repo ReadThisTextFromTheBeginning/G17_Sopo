@@ -25,6 +25,7 @@ namespace Sopo.Core
             _ratingRepository = new RatingRepository();
             _relationshipRepository = new RelationshipRepository();
             _userRepository = new UserRepository();
+            _downloadPathRepository = new DownloadPathRepository();
         }
 
         protected internal CityRepository _cityRepository;
@@ -41,5 +42,6 @@ namespace Sopo.Core
         protected internal RatingRepository _ratingRepository;
         protected internal RelationshipRepository _relationshipRepository;
         protected internal UserRepository _userRepository;
+        protected internal DownloadPathRepository _downloadPathRepository;
     }
 }

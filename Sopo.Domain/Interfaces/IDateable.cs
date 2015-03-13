@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Repository.Interfaces
+namespace Sopo.Domain.Interfaces
 {
     interface IDateable
     {
