@@ -74,6 +74,10 @@
       <Project>{897a546d-d2ab-40f9-b7d4-8a7b38ca0c3e}</Project>
       <Name>Sopo.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sopo.Interfaces\Sopo.Interfaces.csproj">
+      <Project>{a4c216b4-1889-4b6c-a384-bef6afd46c96}</Project>
+      <Name>Sopo.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

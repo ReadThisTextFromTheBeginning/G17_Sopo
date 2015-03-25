@@ -134,21 +134,21 @@
     <Position X="10.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IDateable.cs</FileName>
+      <FileName>DomainInterfaces\IDateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Domain.Interfaces.IDeletable" Collapsed="true">
     <Position X="10.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
-      <FileName>Interfaces\IDeletable.cs</FileName>
+      <FileName>DomainInterfaces\IDeletable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Domain.Interfaces.IRateable" Collapsed="true">
     <Position X="10.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IRateable.cs</FileName>
+      <FileName>DomainInterfaces\IRateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sopo.Domain.Enums.Status" Collapsed="true">

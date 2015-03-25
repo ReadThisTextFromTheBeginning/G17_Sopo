@@ -2,41 +2,49 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Sopo.Domain.User">
     <Position X="4.5" Y="2.25" Width="1.5" />
-    <AssociationLine Name="Groups" Type="Sopo.Domain.Group" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="SentRelationships" Type="Sopo.Domain.Relationship" FixedFromPoint="true">
       <Path>
-        <Point X="5" Y="2.25" />
-        <Point X="5" Y="0.875" />
-        <Point X="4.5" Y="0.875" />
+        <Point X="5.438" Y="5.088" />
+        <Point X="5.438" Y="8.5" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.03" Y="0.14" />
+        <Position X="-1.431" Y="0.381" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ReceivedRelationships" Type="Sopo.Domain.Relationship" FixedFromPoint="true">
+      <Path>
+        <Point X="5.375" Y="5.088" />
+        <Point X="5.375" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.285" Y="0.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ReceivedMessages" Type="Sopo.Domain.Message" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="5.057" />
+        <Point X="4.125" Y="5.057" />
+        <Point X="4.125" Y="6.062" />
+        <Point X="3" Y="6.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.11" Y="0.14" Height="0.182" Width="0.917" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Ratings" Type="Sopo.Domain.Rating" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.125" Y="5.088" />
+        <Point X="5.125" Y="7.799" />
+        <Point X="1.312" Y="7.799" />
+        <Point X="1.312" Y="8" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.737" Y="-0.099" />
       </MemberNameLabel>
     </AssociationLine>
     <AssociationLine Name="Libraries" Type="Sopo.Domain.Library">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="1.233" Y="0.14" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="Pages" Type="Sopo.Domain.Page" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="5.688" Y="5.088" />
-        <Point X="5.688" Y="7.409" />
-        <Point X="7.337" Y="7.409" />
-        <Point X="7.337" Y="9.125" />
-        <Point X="8.25" Y="9.125" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.046" Y="-0.373" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="PhoneNumbers" Type="Sopo.Domain.Phone" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="5.875" Y="5.088" />
-        <Point X="5.875" Y="6.393" />
-        <Point X="7" Y="6.393" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.094" Y="-1.384" />
       </MemberNameLabel>
     </AssociationLine>
     <AssociationLine Name="Posts" Type="Sopo.Domain.Post" ManuallyRouted="true">
@@ -51,44 +59,36 @@
         <Position X="4.505" Y="1.859" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="ReceivedMessages" Type="Sopo.Domain.Message" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="Pages" Type="Sopo.Domain.Page" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4.5" Y="5.057" />
-        <Point X="4.125" Y="5.057" />
-        <Point X="4.125" Y="6.062" />
-        <Point X="3" Y="6.062" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
-        <Position X="0.11" Y="0.14" Height="0.182" Width="0.917" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="ReceivedRelationships" Type="Sopo.Domain.Relationship" FixedFromPoint="true">
-      <Path>
-        <Point X="5.375" Y="5.088" />
-        <Point X="5.375" Y="8.5" />
+        <Point X="5.688" Y="5.088" />
+        <Point X="5.688" Y="7.409" />
+        <Point X="7.337" Y="7.409" />
+        <Point X="7.337" Y="9.125" />
+        <Point X="8.25" Y="9.125" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.285" Y="0.383" />
+        <Position X="0.046" Y="-0.373" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="SentRelationships" Type="Sopo.Domain.Relationship" FixedFromPoint="true">
+    <AssociationLine Name="Groups" Type="Sopo.Domain.Group" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.438" Y="5.088" />
-        <Point X="5.438" Y="8.5" />
+        <Point X="5" Y="2.25" />
+        <Point X="5" Y="0.875" />
+        <Point X="4.5" Y="0.875" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-1.431" Y="0.381" />
+        <Position X="0.03" Y="0.14" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="Ratings" Type="Sopo.Domain.Rating" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="PhoneNumbers" Type="Sopo.Domain.Phone" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.125" Y="5.088" />
-        <Point X="5.125" Y="7.799" />
-        <Point X="1.312" Y="7.799" />
-        <Point X="1.312" Y="8" />
+        <Point X="5.875" Y="5.088" />
+        <Point X="5.875" Y="6.393" />
+        <Point X="7" Y="6.393" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-1.737" Y="-0.099" />
+        <Position X="0.094" Y="-1.384" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -99,16 +99,16 @@
       <Property Name="Profile" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
-      <Property Name="Groups" />
-      <Property Name="Libraries" />
-      <Property Name="Pages" />
-      <Property Name="PhoneNumbers" />
-      <Property Name="Posts" />
-      <Property Name="ReceivedMessages" />
-      <Property Name="ReceivedRelationships" />
       <Property Name="SentRelationships" />
-      <Property Name="Ratings" />
+      <Property Name="ReceivedRelationships" />
       <Property Name="SentMessages" />
+      <Property Name="ReceivedMessages" />
+      <Property Name="Ratings" />
+      <Property Name="Libraries" />
+      <Property Name="Posts" />
+      <Property Name="Pages" />
+      <Property Name="Groups" />
+      <Property Name="PhoneNumbers" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Sopo.Domain.Group">
@@ -193,9 +193,7 @@
         <Point X="5.958" Y="5.905" Type="JumpStart" />
         <Point X="5.542" Y="5.905" Type="JumpEnd" />
         <Point X="5.521" Y="5.905" Type="JumpStart" />
-        <Point X="4.729" Y="5.905" Type="JumpEnd" />
-        <Point X="4.708" Y="5.905" Type="JumpStart" />
-        <Point X="4.542" Y="5.905" Type="JumpEnd" />
+        <Point X="4.573" Y="5.905" Type="JumpEnd" />
         <Point X="4.488" Y="5.905" />
         <Point X="4.488" Y="5.312" />
         <Point X="4.208" Y="5.312" Type="JumpStart" />
@@ -350,7 +348,7 @@
     <Position X="0.75" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IRateable.cs</FileName>
+      <FileName>DomainInterfaces\IRateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

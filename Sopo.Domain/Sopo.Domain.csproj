@@ -55,9 +55,9 @@
     <Compile Include="Enums\RelationshipStatus.cs" />
     <Compile Include="Enums\Status.cs" />
     <Compile Include="Group.cs" />
-    <Compile Include="Interfaces\IDateable.cs" />
-    <Compile Include="Interfaces\IDeletable.cs" />
-    <Compile Include="Interfaces\IRateable.cs" />
+    <Compile Include="DomainInterfaces\IDateable.cs" />
+    <Compile Include="DomainInterfaces\IDeletable.cs" />
+    <Compile Include="DomainInterfaces\IRateable.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Message.cs" />
