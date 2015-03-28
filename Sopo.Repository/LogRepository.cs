@@ -14,7 +14,7 @@ namespace Sopo.Repository
             Save(new Log()
             {
                 Date = DateTime.Now,
-                Text = string.Format("{0}-th User Username:{1}  was  was Logged In.", user.ID, user.Email),
+                Text = string.Format("{0}-th User Username:{1}  was  was Logged In.", user.ID, user.Username),
             });
         }
         public void LogOutLog(User user)
@@ -22,7 +22,7 @@ namespace Sopo.Repository
             Save(new Log()
             {
                 Date = DateTime.Now,
-                Text = string.Format("{0}-th User Username:{1} was Logged Out.", user.ID, user.Email),
+                Text = string.Format("{0}-th User Username:{1} was Logged Out.", user.ID, user.Username),
             });
         }
         public void RegisterLog(User user)
@@ -30,7 +30,7 @@ namespace Sopo.Repository
             Save(new Log()
             {
                 Date = DateTime.Now,
-                Text = string.Format("{0}-th User was Registered with Username:{1}.", user.ID, user.Email),
+                Text = string.Format("{0}-th User was Registered with Username:{1}.", user.ID, user.Username),
             });
         }
         public void ExceptionLog(Exception ex)

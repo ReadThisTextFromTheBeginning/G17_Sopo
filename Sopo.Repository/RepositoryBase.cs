@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sopo.Domain.Interfaces;
-using Sopo.Interfaces;
 
 namespace Sopo.Repository
 {
@@ -27,7 +26,6 @@ namespace Sopo.Repository
         {
             get { return _context; }
         }
-
 
         public virtual T Fetch(int id)
         {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Sopo.Repository;
 using Sopo.Domain;
-using Sopo.Interfaces;
+using Sopo.Domain.Interfaces;
 
 namespace Sopo.Core.Services
 {
@@ -20,14 +20,14 @@ namespace Sopo.Core.Services
 
         public User Login(string username, string password)
         {
-            var u = this.Set().FirstOrDefault(x => x.Email == username && x.Password == password);
+            var u = this.Set().FirstOrDefault(x => x.Username == username && x.Password == password);
             //if(u != null) _logRepository.LoginLog(u);
             return u;
         }
 
         public User Register(User user)
         {
-            var u = this.Set().SingleOrDefault(x => x.Email == user.Email && x.Password == user.Password);     //?
+            var u = this.Set().SingleOrDefault(x => x.Username == user.Username && x.Password == user.Password);     //?
             if (u == null)this.Save(user);
             else return null;   
             return user;

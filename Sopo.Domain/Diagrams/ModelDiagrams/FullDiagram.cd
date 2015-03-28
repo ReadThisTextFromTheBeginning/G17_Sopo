@@ -134,70 +134,70 @@
     <Position X="10.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>DomainInterfaces\IDateable.cs</FileName>
+      <FileName>ModelInterfaces\IDateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Domain.Interfaces.IDeletable" Collapsed="true">
     <Position X="10.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
-      <FileName>DomainInterfaces\IDeletable.cs</FileName>
+      <FileName>ModelInterfaces\IDeletable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Domain.Interfaces.IRateable" Collapsed="true">
     <Position X="10.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>DomainInterfaces\IRateable.cs</FileName>
+      <FileName>ModelInterfaces\IRateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sopo.Domain.Enums.Status" Collapsed="true">
     <Position X="9.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAIAAAAAAAEAIAAAAAKAAAQAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>Enums\Status.cs</FileName>
+      <FileName>Enums\ModelEnums\Status.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.RelationshipStatus" Collapsed="true">
     <Position X="13" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAQAQAAAAAAABAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
-      <FileName>Enums\RelationshipStatus.cs</FileName>
+      <FileName>Enums\ModelEnums\RelationshipStatus.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.PageType" Collapsed="true">
     <Position X="9.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABBAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAQA=</HashCode>
-      <FileName>Enums\PageType.cs</FileName>
+      <FileName>Enums\ModelEnums\PageType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.RatingScale" Collapsed="true">
     <Position X="11.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAABAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAE=</HashCode>
-      <FileName>Enums\RatingScale.cs</FileName>
+      <FileName>Enums\ModelEnums\RatingScale.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.GroupType" Collapsed="true">
     <Position X="13" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACAQAA=</HashCode>
-      <FileName>Enums\GroupType.cs</FileName>
+      <FileName>Enums\ModelEnums\GroupType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.Gender" Collapsed="true">
     <Position X="11.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
-      <FileName>Enums\Gender.cs</FileName>
+      <FileName>Enums\ModelEnums\Gender.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Sopo.Domain.Enums.Education" Collapsed="true">
     <Position X="9.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAABAAICAAAAAAAAAAAAAAAAAAAACAAAAgAg=</HashCode>
-      <FileName>Enums\Education.cs</FileName>
+      <FileName>Enums\ModelEnums\Education.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

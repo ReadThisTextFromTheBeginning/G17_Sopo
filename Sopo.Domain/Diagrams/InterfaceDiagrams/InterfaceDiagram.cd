@@ -1,28 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="ra aris am klasis danishnuleba?">
+    <Position X="1.167" Y="0.979" Height="0.448" Width="1.106" />
+  </Comment>
+  <Comment CommentText="ratom ar gavitanet Command UnitOfWork klasshi rogorc erterti property?">
+    <Position X="7.854" Y="3.698" Height="0.854" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Rogor unda davaimplementiro marknew mark deleted markdirty funqciebi?">
+    <Position X="5.531" Y="5.354" Height="0.833" Width="1.7" />
+  </Comment>
+  <Comment CommentText="unda iyos tu ara RepositoryBase da UnitOfWork Klassebi umeteswilad virtual?">
+    <Position X="8.302" Y="0.792" Height="0.927" Width="1.7" />
+  </Comment>
+  <Comment CommentText="ar inerviulot, es enumi mec ar momwons :D">
+    <Position X="3.198" Y="3.396" Height="0.469" Width="1.7" />
+  </Comment>
   <Class Name="Sopo.Interfaces.IService&lt;T&gt;">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="1" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IService.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sopo.Interfaces.ICommand">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Position X="10.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ICommand.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Interfaces.IRepository&lt;T&gt;">
-    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Position X="6.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAABAAAAAEAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IRepository.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sopo.Interfaces.IUnitOfWork">
-    <Position X="1.5" Y="2" Width="1.5" />
+    <Position X="5.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAgCACAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IUnitOfWork.cs</FileName>

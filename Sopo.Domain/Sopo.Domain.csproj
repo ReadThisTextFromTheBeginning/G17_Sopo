@@ -46,18 +46,23 @@
     <Compile Include="City.cs" />
     <Compile Include="Country.cs" />
     <Compile Include="DownloadPath.cs" />
-    <Compile Include="Enums\DownloadType.cs" />
-    <Compile Include="Enums\Education.cs" />
-    <Compile Include="Enums\Gender.cs" />
-    <Compile Include="Enums\GroupType.cs" />
-    <Compile Include="Enums\PageType.cs" />
-    <Compile Include="Enums\RatingScale.cs" />
-    <Compile Include="Enums\RelationshipStatus.cs" />
-    <Compile Include="Enums\Status.cs" />
+    <Compile Include="Enums\ModelEnums\DownloadType.cs" />
+    <Compile Include="Enums\ModelEnums\Education.cs" />
+    <Compile Include="Enums\ModelEnums\Gender.cs" />
+    <Compile Include="Enums\ModelEnums\GroupType.cs" />
+    <Compile Include="Enums\ModelEnums\PageType.cs" />
+    <Compile Include="Enums\ModelEnums\RatingScale.cs" />
+    <Compile Include="Enums\ModelEnums\RelationshipStatus.cs" />
+    <Compile Include="Enums\ModelEnums\Status.cs" />
     <Compile Include="Group.cs" />
-    <Compile Include="DomainInterfaces\IDateable.cs" />
-    <Compile Include="DomainInterfaces\IDeletable.cs" />
-    <Compile Include="DomainInterfaces\IRateable.cs" />
+    <Compile Include="ModelInterfaces\IDateable.cs" />
+    <Compile Include="ModelInterfaces\IDeletable.cs" />
+    <Compile Include="ModelInterfaces\IRateable.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Enums\Enums\Invoice.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IService.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Message.cs" />
@@ -72,8 +77,12 @@
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Diagrams\FullDiagram.cd" />
-    <None Include="Diagrams\UserDiagram.cd" />
+    <None Include="Diagrams\ModelDiagrams\FullDiagram.cd" />
+    <None Include="Diagrams\ModelDiagrams\UserDiagram.cd" />
+    <None Include="Diagrams\InterfaceDiagrams\InterfaceDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,5 @@
 ﻿using Sopo.Domain;
-using Sopo.Interfaces;
+using Sopo.Domain.Interfaces;
 using Sopo.Repository;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sopo.Core.Services
 {
-   public sealed class CityService : ServiceBase<City,CityRepository>
+    public sealed class CityService : Sopo.Core.Services.ServiceBase<Sopo.Domain.City, CityRepository>
     {
        public CityService(IUnitOfWork contextObj, CityRepository repositoryObj)
            : base(contextObj, repositoryObj)

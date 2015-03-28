@@ -43,7 +43,7 @@ namespace Sopo.Domain
                 this.LastName = value;
             }
         }
-        public string Email
+        public string Username
         {
             get { return this.FirstName; }
             set
@@ -53,7 +53,7 @@ namespace Sopo.Domain
                     !value.Contains("@") ||
                     !value.Contains("."))
                     throw new Exception("User Field Email Has Some Invalid Arguments!");
-                this.Email = value;
+                this.Username = value;
             }
         }
         public string Password
@@ -81,7 +81,7 @@ namespace Sopo.Domain
 
         public override string ToString()
         {
-            return "ID - " + ID + ", Firstname - " + FirstName + ", Lastname - " + LastName + ", Username - " + Email + ", Password - " + Password + ";";
+            return "ID - " + ID + ", Firstname - " + FirstName + ", Lastname - " + LastName + ", Username - " + Username + ", Password - " + Password + ";";
         }
         public override bool Equals(object obj)
         {
@@ -89,7 +89,7 @@ namespace Sopo.Domain
             {
                 User u = (User)obj;
                 if (
-                    this.Email == u.Email &&
+                    this.Username == u.Username &&
                     this.Password == u.Password &&
                     this.FirstName == u.FirstName &&
                     this.LastName == u.LastName

@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="yvelaferi rom virtual iyos, rame dashavdeba?&#xD;&#xA;">
+    <Position X="10.25" Y="1" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="am klasebis sruli umravlesoba sealed aris. dashavdeba se rame?">
+    <Position X="7.017" Y="6.635" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="oriode sityvit, rogor davaimplementiro am ori klasis funqciebi?">
+    <Position X="4.055" Y="2.453" Height="0.75" Width="1.7" />
+  </Comment>
   <Class Name="Sopo.Core.Services.CityService" Collapsed="true">
     <Position X="9" Y="6.75" Width="1.5" />
     <TypeIdentifier>
@@ -98,18 +107,10 @@
       <FileName>Services\UserService.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sopo.Core.Command&lt;T&gt;" Collapsed="true">
-    <Position X="5.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Command.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="Sopo.Core.UnitOfWork&lt;T&gt;" Collapsed="true">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="6.25" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAgGACAAAAAEAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>AAAAAEACAAAAAEAAAAAAAAAAAAAAAAACAAAAEAAAAAA=</HashCode>
       <FileName>UnitOfWork.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Sopo.Interfaces
+namespace Sopo.Dependency
 {
-   public class IService<T>
+   public class Application_Entry
     {
-       IUnitOfWork _context;
     }
 }

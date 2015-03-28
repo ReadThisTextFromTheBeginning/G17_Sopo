@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sopo.Core;
-using Sopo.Interfaces;
 
 namespace Sopo.Core.Services
 {   //:D dzaan momewona es klasi

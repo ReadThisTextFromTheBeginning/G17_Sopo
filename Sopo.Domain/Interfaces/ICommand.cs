@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sopo.Interfaces
+namespace Sopo.Domain.Interfaces
 {
     public interface ICommand
     {

@@ -13,7 +13,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sopo.Web", "http://localhos
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
-		ProjectReferences = "{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}|Sopo.Domain.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}|Sopo.Interfaces.dll;"
+		ProjectReferences = "{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{897A546D-D2AB-40F9-B7D4-8A7B38CA0C3E}|Sopo.Domain.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_18920"
 		Debug.AspNetCompiler.PhysicalPath = "Sopo.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18920\"
@@ -36,7 +36,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sopo.Admin", "http://localh
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
-		ProjectReferences = "{897a546d-d2ab-40f9-b7d4-8a7b38ca0c3e}|Sopo.Domain.dll;{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;{9007c32d-bc28-4a3c-b325-08dd1ebd0874}|Sopo.Facade.dll;{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}|Sopo.Interfaces.dll;"
+		ProjectReferences = "{897a546d-d2ab-40f9-b7d4-8a7b38ca0c3e}|Sopo.Domain.dll;{3361cadc-77ac-4f7b-8a55-174a70e12733}|Sopo.Core.dll;{9EF281B4-A140-451C-91AD-25E6D524A97F}|Sopo.Repository.dll;{9007c32d-bc28-4a3c-b325-08dd1ebd0874}|Sopo.Facade.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_18921"
 		Debug.AspNetCompiler.PhysicalPath = "Sopo.Admin\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18921\"
@@ -69,9 +69,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{66491791
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Test", "Sopo.Test\Sopo.Test.csproj", "{F960C9C3-06A7-4386-922A-C7DA4E5C0896}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{E4308EB3-F8E7-45E0-B510-EC1F8192C715}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_start", "App_start", "{34905743-644D-41DA-899B-A7CCFF96082A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Interfaces", "Sopo.Interfaces\Sopo.Interfaces.csproj", "{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopo.Dependency", "Sopo.Dependency\Sopo.Dependency.csproj", "{43F2D4E7-96F8-4CE5-8409-51D1C9828C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,10 +107,10 @@ Global
 		{F960C9C3-06A7-4386-922A-C7DA4E5C0896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F960C9C3-06A7-4386-922A-C7DA4E5C0896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F960C9C3-06A7-4386-922A-C7DA4E5C0896}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4C216B4-1889-4B6C-A384-BEF6AFD46C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F2D4E7-96F8-4CE5-8409-51D1C9828C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F2D4E7-96F8-4CE5-8409-51D1C9828C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F2D4E7-96F8-4CE5-8409-51D1C9828C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F2D4E7-96F8-4CE5-8409-51D1C9828C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +123,6 @@ Global
 		{54CCC1F3-43A3-4395-B05A-CD7823404DBA} = {F24031E2-5C21-434C-A1F3-F85C1555D91E}
 		{9007C32D-BC28-4A3C-B325-08DD1EBD0874} = {44EFFFDB-E2C3-4905-82A3-489AD52ADD7D}
 		{F960C9C3-06A7-4386-922A-C7DA4E5C0896} = {66491791-573D-4586-99FE-8F1E4A448299}
-		{A4C216B4-1889-4B6C-A384-BEF6AFD46C96} = {E4308EB3-F8E7-45E0-B510-EC1F8192C715}
+		{43F2D4E7-96F8-4CE5-8409-51D1C9828C52} = {34905743-644D-41DA-899B-A7CCFF96082A}
 	EndGlobalSection
 EndGlobal

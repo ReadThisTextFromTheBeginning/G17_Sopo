@@ -1,5 +1,5 @@
 ﻿using Sopo.Domain;
-using Sopo.Interfaces;
+using Sopo.Domain.Interfaces;
 using Sopo.Repository;
 using System;
 using System.Collections.Generic;

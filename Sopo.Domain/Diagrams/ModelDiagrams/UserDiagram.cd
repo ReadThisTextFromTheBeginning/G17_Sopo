@@ -92,7 +92,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAEAAEAAACCAAAAkhgAAYAAAAAAAAIACCBAAAAAAAAw=</HashCode>
+      <HashCode>AAEAAEAAAACAAAAkhwAAYAAAAAAAAIACCBAAAAAAAAw=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -348,7 +348,7 @@
     <Position X="0.75" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>DomainInterfaces\IRateable.cs</FileName>
+      <FileName>ModelInterfaces\IRateable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

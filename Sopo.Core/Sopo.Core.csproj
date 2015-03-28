@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Command.cs" />
     <Compile Include="Services\CityService.cs" />
     <Compile Include="Services\CountryService.cs" />
     <Compile Include="Services\GroupService.cs" />
@@ -62,10 +61,6 @@
     <ProjectReference Include="..\Sopo.Domain\Sopo.Domain.csproj">
       <Project>{897a546d-d2ab-40f9-b7d4-8a7b38ca0c3e}</Project>
       <Name>Sopo.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sopo.Interfaces\Sopo.Interfaces.csproj">
-      <Project>{a4c216b4-1889-4b6c-a384-bef6afd46c96}</Project>
-      <Name>Sopo.Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sopo.Repository\Sopo.Repository.csproj">
       <Project>{9ef281b4-a140-451c-91ad-25e6d524a97f}</Project>

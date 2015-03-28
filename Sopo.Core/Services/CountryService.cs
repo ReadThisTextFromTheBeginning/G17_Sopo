@@ -1,5 +1,5 @@
 ﻿using Sopo.Domain;
-using Sopo.Interfaces;
+using Sopo.Domain.Interfaces;
 using Sopo.Repository;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sopo.Core.Services
 {
-    public sealed class CountryService : ServiceBase<Country, CountryRepository>
+    public sealed class CountryService : Sopo.Core.Services.ServiceBase<Sopo.Domain.Country, CountryRepository>
     {
         public CountryService(IUnitOfWork contextObj, CountryRepository repositoryObj)
             : base(contextObj, repositoryObj)
